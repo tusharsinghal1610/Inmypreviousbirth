@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+<title>Look your Past</title>
+<style>
+#demo1{
+background-color:#2be563;
+color:white;
+font-size:5vw;}
+
+#demo2{
+background-color:#2be563;
+color:white;
+font-size:5vw;}
+
+
+#demo3{
+background-color:#2be563;
+color:white;
+font-size:5vw;}
+
+</style>
+</head>
+<body>
+<center>  
+<h4 id="demo3">fill these details to know what were you in your previous birth</h4><br><br><br>
+<div id="gayab">
+Your Name:
+<input type="text" placeholder="Your Name">
+<br><br>
+Birthdate:
+<input type="text" placeholder="(DD/MM/YYYY)">
+<br><br>
+Your Hobby:
+<input type="text" placeholder="hobby">
+
+<br><br>
+<button onclick="myfunction()"> submit </button>
+<br><br>
+</center>
+</div>
+<div id="demo"></div>
+
+
+<center><div id="demo2">In my previous birth</div></center>
+
+<center><div id="demo1"></div></center>
+
+
+<br><br><br>
+
+
+<script>
+
+function myfunction()
+{
+var x;
+x = Math.random();
+document.getElementById("gayab").style.display="none";
+
+
+
+if(x<0.1)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/2.jpg'>";
+document.getElementById("demo1").innerHTML="I was a poisinous wild";
+}
+else if(x<0.2)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/3.jpg'>";
+document.getElementById("demo1").innerHTML="I was somewhat fat hippo";
+}
+else if(x<0.3)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/4.jpg'>";
+document.getElementById("demo1").innerHTML="I was little lazy tortoise";
+}
+else if(x<0.4)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/5.jpg'>";
+document.getElementById("demo1").innerHTML="I was the fastest cheetah";
+}
+else if(x<0.5)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/6.jpg'>";
+document.getElementById("demo1").innerHTML="I was a legend lion";
+}
+else if(x<0.6)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/7.jpg'>";
+document.getElementById("demo1").innerHTML="I was so cute puppy";
+}
+else if(x<0.7)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/8.jpg'>";
+document.getElementById("demo1").innerHTML="I was sleeping panda";
+}
+else if(x<0.8)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/9.jpg'>";
+document.getElementById("demo1").innerHTML="I was a naughty monkey";
+}
+else if(x<0.9)
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/10.jpg'>";
+document.getElementById("demo1").innerHTML="I was a beautiful butterfly";
+}
+else
+{
+document.getElementById("demo").innerHTML="<img style='width:100%' src='MONEYMAGE/11.jpg'>";
+document.getElementById("demo1").innerHTML="I was a king";
+}
+}
+</script>
+
+
+</body>
+</html>
